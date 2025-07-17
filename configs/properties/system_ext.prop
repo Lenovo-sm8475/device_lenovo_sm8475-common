@@ -1,2 +1,4 @@
 # DPM
 persist.vendor.dpm.feature=11
+vendor.lenovocamera.packagename.zui=0
+vendor.camera.packagename.zui=0

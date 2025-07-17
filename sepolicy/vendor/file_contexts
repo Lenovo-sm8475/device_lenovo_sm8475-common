@@ -59,3 +59,5 @@
 # Thermal
 /dev/lenovo_sys_temp                                                    u:object_r:thermal_device:s0
 /proc/stat                                                              u:object_r:proc_stat:s0
+
+/tmpfs/property_service                                                 u:object_r:property_socket:s0

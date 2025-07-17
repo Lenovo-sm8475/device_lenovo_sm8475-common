@@ -1,7 +1,24 @@
 # Camera
-vendor.lenovocamera.packagename.zui    u:object_r:vendor_camera_prop:s0
-vendor.camera.                         u:object_r:vendor_camera_prop:s0
-ro.vendor.camera.res.fmq.size          u:object_r:vendor_camera_prop:s0
+vendor.lenovocamera.packagename.zui         u:object_r:vendor_camera_prop:s0 exact bool
+vendor.camera.                              u:object_r:vendor_camera_prop:s0
+vendor.camera.screenrecord                  u:object_r:vendor_camera_prop:s0
+vendor.camera.packagename.cts               u:object_r:vendor_camera_prop:s0 exact bool
+vendor.lenovocamera.packagename.client      u:object_r:vendor_camera_prop:s0
+vendor.camera.pandora.enable                u:object_r:vendor_camera_prop:s0
+vendor.camera.pandora.synthesis.targetapp   u:object_r:vendor_camera_prop:s0
+vendor.camera.cammotorfeedbacktype          u:object_r:vendor_camera_prop:s0
+vendor.video.big.file.enable                u:object_r:vendor_camera_prop:s0
+vendor.camera.frontcamera.status            u:object_r:vendor_camera_prop:s0
+vendor.camera.device.orientation            u:object_r:vendor_camera_prop:s0
+persist.odm.tblenovo.enableThirdAppFB       u:object_r:vendor_camera_prop:s0
+persist.odm.tblenovo.enableThirdAppBokeh    u:object_r:vendor_camera_prop:s0
+persist.odm.tblenovo.orientation            u:object_r:vendor_camera_prop:s0
+persist.vendor.camera.blackMask             u:object_r:vendor_camera_prop:s0
+persist.vendor.camera.beauty.level          u:object_r:vendor_camera_prop:s0
+persist.vendor.camera.blur.level            u:object_r:vendor_camera_prop:s0
+persist.vendor.camera.seg.index             u:object_r:vendor_camera_prop:s0
+ro.vendor.camera.res.fmq.size               u:object_r:vendor_camera_prop:s0
+vendor.camera.packagename.zui               u:object_r:vendor_camera_prop:s0
 
 # Dolby
 persist.vendor.dolbyv.      u:object_r:vendor_dolbyv_prop:s0

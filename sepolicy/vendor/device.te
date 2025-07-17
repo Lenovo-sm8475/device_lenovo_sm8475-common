@@ -3,3 +3,4 @@ type thermal_device, dev_type;
 
 # Vibrator
 type aac_richtap_dev_device, dev_type;
+type devicesettings_app, domain;
