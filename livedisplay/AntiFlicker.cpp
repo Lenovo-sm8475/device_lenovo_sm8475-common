@@ -50,9 +50,9 @@ Return<bool> AntiFlicker::isEnabled() {
 Return<bool> AntiFlicker::setEnabled(bool enabled) {
     std::ofstream dc_dimming_file(kDcDimmingPath);
     if (enabled) {
-        dc_dimming_file << "19";
+        dc_dimming_file << "15";
     } else {
-        dc_dimming_file << "18";
+        dc_dimming_file << "14";
     }
     if (dc_dimming_file.fail())
         LOG(ERROR) << "Failed to write " << kDcDimmingPath;
