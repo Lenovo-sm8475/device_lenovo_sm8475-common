@@ -238,6 +238,8 @@ on post-fs-data
     #Create folder of camera
     mkdir /data/vendor/camera 0770 camera camera
 
+    copy /vendor/etc/camera/portrait/PS_F_N_v3_E.m.awcache /data/vendor/camera/PS_F_N_v3_E.m.awcache
+    chown cameraserver audio data/vendor/camera/PS_F_N_v3_E.m.awcache
 
     #Create directory for tftp
     mkdir /data/vendor/tombstones 0771 system system

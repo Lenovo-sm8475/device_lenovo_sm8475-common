@@ -1,3 +1,9 @@
 binder_call(hal_camera_default, system_server)
 allow hal_camera_default mnt_vendor_file:dir r_dir_perms;
 allow hal_camera_default mnt_vendor_file:file r_file_perms;
+allow hal_camera_default sysfs_devices_system_cpu:file rw_file_perms;
+allow cameraserver property_socket:sock_file write;
+allow cameraserver init:unix_stream_socket connectto;
+allow cameraserver property_socket:property_service set;
+allow cameraserver system_prop:property_service set;
+set_prop(cameraserver, system_prop)
