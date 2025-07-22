@@ -36,3 +36,31 @@
 
 # Thermal
 /dev/lenovo_sys_temp                                                    u:object_r:thermal_device:s0
+
+# Legion Assistant
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_man_freq                   u:object_r:sysfs_devices_system_cpu:s0
+/sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq                   u:object_r:sysfs_devices_system_cpu:s0
+/sys/devices/system/cpu/cpu7/cpufreq/scaling_max_freq                   u:object_r:sysfs_devices_system_cpu:s0
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq                   u:object_r:sysfs_devices_system_cpu:s0
+/sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq                   u:object_r:sysfs_devices_system_cpu:s0
+/sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq                   u:object_r:sysfs_devices_system_cpu:s0
+/sys/class/kgsl/kgsl-3d0/min_clock_mhz                                  u:object_r:vendor_sysfs_kgsl:s0
+/sys/class/kgsl/kgsl-3d0/max_clock_mhz                                  u:object_r:vendor_sysfs_kgsl:s0
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor                   u:object_r:sysfs_devices_system_cpu:s0
+/sys/devices/system/cpu/cpu4/cpufreq/scaling_governor                   u:object_r:sysfs_devices_system_cpu:s0
+/sys/devices/system/cpu/cpu7/cpufreq/scaling_governor                   u:object_r:sysfs_devices_system_cpu:s0
+/sys/class/kgsl/kgsl-3d0/max_pwrlevel                                   u:object_r:vendor_sysfs_kgsl:s0
+/sys/class/kgsl/kgsl-3d0/min_pwrlevel                                   u:object_r:vendor_sysfs_kgsl:s0
+/proc/tp_720hz                                                          u:object_r:proc:s0
+
+# Touch Sampling Rate 1500hz
+/sys/devices/virtual/touch/tp_dev/game_mode                             u:object_r:sysfs_touchpanel:s0
+
+# Double tap to wake
+/sys/devices/virtual/touch/tp_dev/gesture_on                            u:object_r:sysfs_touchpanel:s0
+
+# Charge Options
+/sys/class/power_supply/battery/charge_control_limit                     u:object_r:vendor_sysfs_battery_supply:s0
+
+# Gamebar Overlay
+/proc/stat                                                              u:object_r:proc_stat:s0
