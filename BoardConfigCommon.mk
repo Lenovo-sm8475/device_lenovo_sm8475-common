@@ -151,15 +151,15 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 2
 BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT := true
 
 # VINTF
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     $(COMMON_PATH)/configs/vintf/compatibility_matrix.lenovo.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml
 
-DEVICE_MATRIX_FILE := \
+DEVICE_MATRIX_FILE += \
     hardware/qcom-caf/common/compatibility_matrix.xml
 
-DEVICE_MANIFEST_SKUS := cape
-DEVICE_MANIFEST_CAPE_FILES := \
+DEVICE_MANIFEST_SKUS += cape
+DEVICE_MANIFEST_CAPE_FILES += \
     $(COMMON_PATH)/configs/vintf/manifest_lenovo.xml \
     $(COMMON_PATH)/configs/vintf/manifest_cape.xml
 
