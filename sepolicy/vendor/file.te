@@ -1,2 +1,7 @@
 # Fingerprint
 type fpc_fingerprint_sysfs, fs_type, sysfs_type;
+
+allow hal_wifi_default vendor_tombstone_data_file:dir search;
+hal_client_domain(system_server, hal_dms)
+
+allow system_server self:capability sys_module;
