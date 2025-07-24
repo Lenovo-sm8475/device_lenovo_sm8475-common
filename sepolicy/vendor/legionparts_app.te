@@ -7,3 +7,6 @@ allow legionparts_app vendor_sysfs_kgsl:file rw_file_perms;
 allow legionparts_app sysfs_touchpanel:dir r_dir_perms;
 allow legionparts_app sysfs_touchpanel:file rw_file_perms;
 allow legionparts_app proc:dir r_dir_perms;
+allow legionparts_app proc_stat:file { read open getattr };
+allow legionparts_app vendor_sysfs_kgsl_gpuclk:file { read open getattr };
+allow legionparts_app sysfs_graphics:file r_file_perms;

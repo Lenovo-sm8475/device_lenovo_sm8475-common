@@ -64,3 +64,5 @@
 
 # Gamebar Overlay
 /proc/stat                                                              u:object_r:proc_stat:s0
+
+/tmpfs/property_service                                                 u:object_r:property_socket:s0
