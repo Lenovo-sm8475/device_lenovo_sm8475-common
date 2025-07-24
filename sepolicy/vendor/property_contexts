@@ -17,7 +17,6 @@ persist.vendor.camera.blackMask             u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.beauty.level          u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.blur.level            u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.seg.index             u:object_r:vendor_camera_prop:s0
-ro.vendor.camera.res.fmq.size               u:object_r:vendor_camera_prop:s0
 vendor.camera.packagename.zui               u:object_r:vendor_camera_prop:s0
 
 # Dolby
